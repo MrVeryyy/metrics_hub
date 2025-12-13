@@ -1,7 +1,7 @@
 #!/bin/bash
 
 img1="data/image1/gt.jpg"
-img2="data/image1/psp.jpg"
+img2="data/image1/pti.jpg"
 
 dig=3
 

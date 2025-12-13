@@ -1,9 +1,9 @@
 {
   "gt": "data/image1/gt.jpg",
-  "pred": "data/image1/psp.jpg",
+  "pred": "data/image1/pti.jpg",
   "metrics": {
-    "psnr": 13.958,
-    "ssim": 0.702,
-    "lpips": 0.293
+    "psnr": 25.548,
+    "ssim": 0.808,
+    "lpips": 0.157
   }
 }
