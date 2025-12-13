@@ -1,7 +1,7 @@
 import lpips
 import torch
-from metrics_hub.interfaces import PairwiseMetric
-from metrics_hub.registry import register_metric
+from main.interface import PairwiseMetric
+from main.registry import register_metric
 
 class LPIPS(PairwiseMetric):
     name = "lpips"

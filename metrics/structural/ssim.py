@@ -1,6 +1,6 @@
 from skimage.metrics import structural_similarity as ssim
-from metrics_hub.interfaces import PairwiseMetric
-from metrics_hub.registry import register_metric
+from main.interface import PairwiseMetric
+from main.registry import register_metric
 
 class SSIM(PairwiseMetric):
     name = "ssim"
