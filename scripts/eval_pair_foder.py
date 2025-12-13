@@ -1,5 +1,5 @@
 import argparse
-from metrics_hub.evaluate import pairwise
+from main.evaluate import pairwise
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--gt", required=True)
