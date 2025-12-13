@@ -59,6 +59,5 @@ This repository is designed for **research**, **benchmarking**, and **paper-read
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/yourname/Metrics_Hub.git
-cd Metrics_Hub
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate metrics_hub
