@@ -12,7 +12,7 @@ def main():
     parser.add_argument(
         "--metrics",
         nargs="+",
-        default=["psnr", "ssim", "lpips"],
+        default=["psnr", "ssim", "lpips", "id"],
         help="Metrics to compute",
     )
     parser.add_argument(

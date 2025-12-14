@@ -3,7 +3,8 @@
   "pred": "data/image1/pti.jpg",
   "metrics": {
     "psnr": 25.548,
-    "ssim": 0.808,
-    "lpips": 0.157
+    "ssim": 0.803,
+    "lpips": 0.157,
+    "id": 1.0
   }
 }
