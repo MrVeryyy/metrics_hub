@@ -1,0 +1,6 @@
+pair_id,gt,pred,psnr,ssim,lpips,id
+00000,/home/rz/raymond_project/metrics_hub/data_pair/A/00000.png,/home/rz/raymond_project/metrics_hub/data_pair/B/00000.png,8.849,0.3,0.83,0.087
+00001,/home/rz/raymond_project/metrics_hub/data_pair/A/00001.png,/home/rz/raymond_project/metrics_hub/data_pair/B/00001.png,6.65,0.216,0.716,0.03
+00002,/home/rz/raymond_project/metrics_hub/data_pair/A/00002.png,/home/rz/raymond_project/metrics_hub/data_pair/B/00002.png,9.845,0.293,0.664,0.038
+00003,/home/rz/raymond_project/metrics_hub/data_pair/A/00003.png,/home/rz/raymond_project/metrics_hub/data_pair/B/00003.png,8.722,0.285,0.707,-0.018
+00004,/home/rz/raymond_project/metrics_hub/data_pair/A/00004.png,/home/rz/raymond_project/metrics_hub/data_pair/B/00004.png,8.289,0.279,0.789,0.044

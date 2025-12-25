@@ -1,0 +1,3 @@
+pair_id,gt,pred,psnr,ssim,lpips,id
+ffhq_00930_1,/home/rz/raymond_project/metrics_hub/data_pair/A/ffhq_00930_1.png,/home/rz/raymond_project/metrics_hub/data_pair/B/ffhq_00930_1.png,21.533,0.536,0.445,0.875
+ffhq_00930_2,/home/rz/raymond_project/metrics_hub/data_pair/A/ffhq_00930_2.png,/home/rz/raymond_project/metrics_hub/data_pair/B/ffhq_00930_2.png,27.126,0.766,0.301,0.882

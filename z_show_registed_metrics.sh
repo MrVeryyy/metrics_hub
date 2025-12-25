@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python - << 'PY'
+$HOME"/miniconda3/envs/metrics_hub/bin/python" - << 'PY'
 import main
 from main.registry import list_metrics, get_metric
 

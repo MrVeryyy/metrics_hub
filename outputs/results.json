@@ -1,10 +1,10 @@
 {
-  "gt": "data/image1/gt.jpg",
-  "pred": "data/image1/pti.jpg",
+  "gt": "data/image2/083_aligned_bg.jpg",
+  "pred": "data/mean/083_aligned_bg_gray_iter1_MaskPoseIn_Foreground_black.jpg",
   "metrics": {
-    "psnr": 25.548,
-    "ssim": 0.803,
-    "lpips": 0.157,
-    "id": 0.891
+    "psnr": 18.804,
+    "ssim": 0.835,
+    "lpips": 0.238,
+    "id": 0.615
   }
 }
