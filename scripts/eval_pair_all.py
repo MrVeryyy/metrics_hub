@@ -71,6 +71,8 @@ def main():
     a_dir = (repo_root / args.a_dir).resolve()
     b_dir = (repo_root / args.b_dir).resolve()
 
+    data_pair_dir = repo_root / "data_pair"
+
     out_dir = (repo_root / args.out).resolve()
     out_dir.mkdir(parents=True, exist_ok=True)
 
@@ -126,8 +128,8 @@ def main():
 
             row = {
                 "pair_id": pid,
-                "gt": str(gt_path),
-                "pred": str(pred_path),
+                "gt": gt_path.relative_to(data_pair_dir).as_posix(),
+                "pred": pred_path.relative_to(data_pair_dir).as_posix(),
                 **results,
             }
             rows.append(row)

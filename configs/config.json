@@ -1,0 +1,4 @@
+{   
+    "metrics": ["psnr", "ssim", "lpips"],
+    "all_metrics": ["psnr", "ssim", "lpips", "id"]
+}

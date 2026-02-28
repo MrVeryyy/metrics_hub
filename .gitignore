@@ -118,7 +118,7 @@ mmpose/.mim
 work_dirs/
 docs/**/topics/
 docs/**/papers/*.md
-docs/**/datasets.md
+docs/**/datasets.mdq
 docs/**/modelzoo.md
 
 !tests/data/**/*.pkl

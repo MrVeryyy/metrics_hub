@@ -55,9 +55,23 @@ def evaluate_pair(
       - dict: {metric_name: score}
         Note: PSNR/SSIM higher is better; LPIPS lower is better.
     """
-    if metrics is None:
-        metrics = ("psnr", "ssim", "lpips")
-
+    # if metrics is None:
+    #     metrics = ("psnr", "ssim", "lpips")
+    # 
+    
+    # Use congigured default metrics if not provided
+    metrics = ("psnr", "ssim", "lpips")
+    try:
+        import json
+        with open("configs/config.json", "r") as f:
+            config = json.load(f)
+            metrics = tuple(config["metrics"])
+    except ImportError:
+        print("Warning: Could not import json module.")
+        return {}
+    
+    print(f"Evaluating metrics: {metrics}")
+    
     # Load images if paths are provided
     if not isinstance(img_a, np.ndarray):
         img_a = load_image(Path(img_a))
