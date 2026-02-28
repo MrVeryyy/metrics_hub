@@ -141,4 +141,4 @@ docs/**/modelzoo.md
 *.gif
 *.GIF
 
- outputs/
+outputs/
