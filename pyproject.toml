@@ -8,4 +8,8 @@ version = "0.1.0"
 requires-python = ">=3.9"
 
 [tool.setuptools]
-packages = ["main", "metrics"]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["main*", "metrics*"]
